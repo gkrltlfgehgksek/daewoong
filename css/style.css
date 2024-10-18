@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.clear_fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  height: 9376px;
+}
+
+#head_inner {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 0 50px;
+  z-index: 300;
+}
+#head_inner #logo {
+  margin-top: 28px;
+  margin-left: 140px;
+  float: left;
+}
+#head_inner #logo a {
+  display: inline-block;
+  width: 184px;
+  height: 37px;
+  background: url(/images/logo_02.png) no-repeat;
+  background-size: 100% auto;
+  text-indent: -9999px;
+  transition: all 0.2s ease-in-out;
+}
+#head_inner #logo a:hover {
+  background-position: 0 -37px !important;
+}
+#head_inner #gnb {
+  display: inline-block;
+}
+#head_inner #gnb li {
+  float: left;
+  margin-left: 77px;
+  margin-top: 36px;
+}
+#head_inner #gnb a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+}
+#head_inner #gnb a:hover {
+  color: #ff8500;
+}
+#head_inner #top {
+  float: right;
+  margin-right: 160px;
+  margin-top: 41px;
+}
+#head_inner #top li {
+  float: left;
+  margin-left: 39px;
+  margin-bottom: 5px;
+}
+#head_inner #top a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+#head_inner #top a:nth-child(1) {
+  text-decoration: none;
+  margin-top: -5px;
+}
+#head_inner #top i {
+  margin-left: 10px;
+}
+#head_inner #top .menu {
+  border-top: 2px #fff;
+}
+#head_inner #top .menu a {
+  display: inline-block;
+}
+#head_inner #top .menu i {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: #fff;
+  margin: 5px 0;
+}
+
+#head_inner.scrolled {
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+}
+#head_inner.scrolled #logo a {
+  background-position: 0 bottom;
+}
+#head_inner.scrolled #gnb a {
+  color: #333;
+  font-weight: bold;
+}
+#head_inner.scrolled #gnb a:hover {
+  color: #ff8500;
+}
+#head_inner.scrolled #top a {
+  color: #333;
+  font-weight: 500;
+}
+#head_inner.scrolled #top a:hover {
+  color: #ff8500;
+}
+#head_inner.scrolled #top .menu i {
+  background: #333;
+}
+
+main {
+  margin: 0 auto;
+}
+main #banner video {
+  position: relative;
+  height: 1080px;
+}
+main #banner .main_t {
+  position: absolute;
+  top: 379px;
+  left: 278px;
+  font-size: 18px;
+  color: #fff;
+}
+main #banner h3 {
+  position: absolute;
+  top: 439px;
+  left: 278px;
+  line-height: 60px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+main #banner h4 {
+  position: absolute;
+  top: 600px;
+  left: 278px;
+  font-size: 22px;
+  color: #fff;
+}
+main #banner .more {
+  position: absolute;
+  top: 700px;
+  left: 285px;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 17px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transition: all 0.3s ease-out;
+}
+main #banner .more a {
+  text-decoration: none;
+  color: #fff;
+}
+main #banner .more:hover {
+  background: #fff;
+}
+main #banner .more:hover a {
+  color: #ff8500;
+}
+main #p_inner {
+  position: relative;
+  background: #f6f6f6;
+  top: -30px;
+  height: 1170px;
+  border-radius: 50px 50px 0 0;
+  z-index: 10;
+}
+main #p_inner .name {
+  font-size: 60px;
+  color: #FF8500;
+  font-weight: bold;
+  position: absolute;
+  top: 207px;
+  left: 278px;
+}
+main #p_inner .menu_list li {
+  display: inline-block;
+  margin-top: 82px;
+}
+main #p_inner .menu_list li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #DBDBDB;
+}
+main #p_inner .menu_list li p {
+  border: 2px solid #DBDBDB;
+  border-radius: 50px;
+  margin-top: 11px;
+}
+main #p_inner #page .baro01 {
+  position: absolute;
+  top: 296px;
+  left: 614px;
+}
+main #p_inner #page .baro01 .p1 {
+  float: left;
+  height: 30px;
+}
+main #p_inner #page .baro01 .p2 {
+  font-size: 20px;
+  float: left;
+  line-height: 30px;
+  margin-left: 10px;
+}
+main #p_inner #page .baro02 .p1 {
+  float: left;
+  height: 30px;
+}
+main #p_inner #page .baro02 .p2 {
+  font-size: 20px;
+  float: left;
+  line-height: 30px;
+  margin-left: 10px;
+}
+main #p_inner #page .more {
+  width: 120px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50px;
+}
+main #p_inner #page .more a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #707070;
+}
+main #p_inner #page .more .xi-plus-min {
+  background: #FF8500;
+  width: 29xp;
+  height: 29px;
+  border-radius: 50px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
