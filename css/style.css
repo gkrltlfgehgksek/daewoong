@@ -17,6 +17,7 @@ a {
 
 html {
   height: 9376px;
+  width: 1920px;
 }
 
 #head_inner {
@@ -285,4 +286,97 @@ main #product_j #p_j .jp01 p {
   color: #a1a1a5;
   margin-top: 10px;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+main #best #best_inner {
+  position: relative;
+}
+main #best #best_inner .inner {
+  background: #F6F6F8;
+  width: 812px;
+  height: 404px;
+  border-radius: 40px;
+  position: absolute;
+  top: 212px;
+  right: 140px;
+  transition: all 0.6s ease-in-out;
+  transform: translateY(100px);
+  opacity: 0;
+}
+main #best #best_inner .inner img {
+  position: absolute;
+  top: 62px;
+  left: 19px;
+}
+main #best #best_inner .inner .button {
+  background: #ff8500;
+  width: 100px;
+  height: 21px;
+  border-radius: 8px;
+  margin: 95px 324px 0 387px;
+}
+main #best #best_inner .inner .button p {
+  font-family: Pretendard-Medium;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 14px;
+}
+main #best #best_inner .inner .best_text {
+  position: absolute;
+  top: 130px;
+  left: 387px;
+}
+main #best #best_inner .inner .best_text h1 {
+  font-family: Pretendard-Bold;
+  color: #000;
+  font-size: 25px;
+  margin-top: 14px;
+}
+main #best #best_inner .inner .best_text p {
+  font-size: 15px;
+  color: #9a9a9a;
+  font-family: Pretendard-Medium;
+  display: inline-block;
+  margin-top: 13px;
+}
+main #best #best_inner .inner .best_text p:nth-child(2) {
+  margin-right: 31px;
+}
+main #best #best_inner .inner .best_text .t1 {
+  margin-top: 38px;
+  font-family: Pretendard-Medium;
+  font-size: 18px;
+  color: #505050;
+}
+main #best #best_inner .inner .best_text .t1 li {
+  line-height: 21px;
+  margin-top: 13px;
+}
+main #best #best_inner .inner.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+main #group .esg {
+  width: 100%;
+}
+main #group .esg img {
+  margin-top: 239px;
+  margin-left: 140px;
+  position: relative;
+}
+main #group .esg .dt li {
+  font-family: Pretendard-Bold;
+  color: #ff8500;
+}
+main #group .esg .dt li h3 {
+  color: #000;
+  font-size: 50px;
+}
+main #group .esg .dt li p {
+  color: #000;
+  font-size: 25px;
+  font-family: Pretendard-Medium;
+}
+main #group .esg .dt li p strong {
+  font-family: Pretendard-Bold;
+}

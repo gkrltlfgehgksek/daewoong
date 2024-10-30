@@ -147,10 +147,38 @@
     </section><!--end product-->
     
     <div id="best">
-        <div id="">
-
-        </div>
-    </div>
+        <div id="best_inner">
+            <a href="#"><img src="/images/best.png" alt="에너씨슬 퍼펙트샷"></a>
+            <section class="inner">
+                <img src="/images/best_01.png" alt="">
+                <div class="button">
+                    <p>건강기능식품</p>
+                </div>
+                <div class="best_text">
+                    <h1>에너씨슬 퍼펙트샷</h1>
+                    <p># 하루 1병 9중 멀티 기능성</p>
+                    <p># 지친 간을 위한 휴식</p>
+                    <ul class="t1">
+                        <li>매일 피곤하다면, 이것 확인해보세요</li>
+                        <li>'간 건강'까지 의심해보아야 합니다.</br>
+                            피로를 해결할 수 있는 최강조합은 비타민 + 밀크씨슬</br>
+                        </li>
+                    </ul>
+                </div><!--end best_text-->
+            </section><!--end inner-->
+        </div><!--end best_inner-->
+    </div><!--end best-->
+    <div id="group">
+        <div class="esg">
+            <img src="/images/group.png" alt="글로벌 헬스케어 그룹">
+            <ul class="dt">
+                <li>Deawoog</li>
+                <li><h3>Global</br>
+                    Healthcare Group</h3></li>
+                <li><p>인류와 사회가 행복한 지속가능한 <strong>가치 실현</strong>, 의약보국의 꿈을 넘어 사람과 지구, <strong>모두가 건강한 미래</strong>를 만들어갑니다.</p></li>
+            </ul>
+        </div><!--end esg-->
+    </div><!--end group-->
 </main>
 
 
@@ -165,8 +193,13 @@
     <script src="js/ScrollGiveClass.js"></script>
     <script>
         var sgc1 = new ScrollGiveClass("#head_inner",{
-            add:-110, class:"scrolled"
+            baceline:100
+        });
 
+        var sgc2 = new ScrollGiveClass("#best .inner",{
+            class:"show",
+            baseline: "middle",
+            add:0.2
         });
     </script>
 </body>
