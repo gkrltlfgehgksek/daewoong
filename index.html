@@ -16,7 +16,10 @@
     <!--외부 스타일연결-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
      <!--script 연결-->
-     <script src="js/script.js"></script>
+
+    <!--js/swiper 연결-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 <body>
@@ -42,7 +45,7 @@
     </header>
 <main>
     
-    <section id="banner" class="swiper">
+    <section id="main_banner" class="swiper">
         <ul class="swiper-wrapper">
             <li class="swiper-slide">
                 <div class="v_inner">
@@ -89,7 +92,7 @@
                 <li><a href="#">대웅몰 바로가기</a></li>
                 <li><a href="#">판매약국 찾기</a></li>
             </ul>
-            <span class="more" style="font-size: 16px; font-weight: bold; color: #707070;">더보기<i class="xi-plus-min"></i>
+            <span class="more"><a href="#">더보기</a><i class="xi-plus-min"></i>
             </span>
         
             <div id="product_j">
@@ -118,9 +121,16 @@
                         </li>
                         <li class="swiper-slide">
                             <div class="jp01">
-                                <img src="images/j_01.png" alt="대웅우루사 연질캡슐">
-                                <p><a href="#">대웅우루사 연질캡슐</a></p>
-                                <p>간에 쌓인 피로, 빠른 회복에!</p>
+                                <img src="images/j_04.png" alt="베아제 정">
+                                <p><a href="#">베아제 정</a></p>
+                                <p>위와 장에서 2번! 2단계 빠른 소화제</p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="jp01">
+                                <img src="images/j_04.png" alt="베아제 정">
+                                <p><a href="#">베아제 정</a></p>
+                                <p>위와 장에서 2번! 2단계 빠른 소화제</p>
                             </div>
                         </li>
                         <li class="swiper-slide">
@@ -134,7 +144,13 @@
                 </section><!--end p_j-->
             </div><!--end product_j-->
         </div><!--end inner-->
-    </section><!--end product-->  
+    </section><!--end product-->
+    
+    <div id="best">
+        <div id="">
+
+        </div>
+    </div>
 </main>
 
 
@@ -145,13 +161,11 @@
 
 
     
-    <!--js/swiper 연결-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
     <script src="js/ScrollGiveClass.js"></script>
-    <script src="js/script.js"></script>
     <script>
         var sgc1 = new ScrollGiveClass("#head_inner",{
-            add:-100, class:"scrolled"
+            add:-110, class:"scrolled"
 
         });
     </script>

@@ -6,11 +6,11 @@ $main : #ff8500;
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
+    font- : 400;
     font-style: normal;
 }
 .clear_fix::after{content: ''; display: block; clear:both}
-a{text-decoration: none; color:inherit;}
+a{text-decoration: none; color:inherit; }
 html{height: 9376px;}
 #head_inner{ position:fixed; width:100%; height:80px; 
     padding: 0 50px;  z-index:300; 
@@ -23,14 +23,14 @@ html{height: 9376px;}
     #gnb{display: inline-block;
         li{float: left;   margin-left: 77px;
             margin-top: 36px;}
-        a{text-decoration: none; color: #fff; font-weight: bold;
+        a{text-decoration: none; color: #fff; font-family: Pretendard-Bold;
             font-size: 19px;}
         a:hover{color:$main;}
         }//end gnb
 
     #top{float: right; margin-right: 160px; margin-top: 41px; 
         li{float: left; margin-left:39px; margin-bottom: 5px;}
-        a{text-decoration:none; color: #fff; font-weight :500; font-size:16px;}
+        a{text-decoration:none; color: #fff; font-family: Pretendard-Medium; font-size:16px;}
         a:nth-child(1){text-decoration:none; margin-top: -5px;}
         i{margin-left:10px;}
         .menu{border-top: 2px  #fff;
@@ -48,11 +48,11 @@ html{height: 9376px;}
     }//end logo
 
     #gnb{
-        a{color: #333; font-weight: bold;}
+        a{color: #333; font-family: Pretendard-Bold;}
         a:hover{color: $main;}
     }//end gnb
     #top{
-        a{color: #333; font-weight: 500;}
+        a{color: #333; font-family: Pretendard-Medium;}
         a:hover{color:$main;}
         .menu{
             i{background: #333;}
@@ -62,12 +62,12 @@ html{height: 9376px;}
 
 
 main{margin: 0 auto; 
-    #banner{
+    #main_banner{
     
     video{position: relative; height: 1080px;}
     .main_t{position: absolute; top: 379px; left: 278px; font-size: 18px; color: #fff;}
     h3{position: absolute; top: 439px; left: 278px; line-height: 60px;
-        font-size: 50px; color: #fff; font-weight: bold; }
+        font-size: 50px; color: #fff; font-family: Pretendard-Bold; }
     h4{position: absolute; top: 600px; left: 278px; font-size: 22px; color: #fff; }
     .more{position: absolute; top: 700px; left: 285px; font-size: 14px; color: #fff;
     padding: 8px 17px; border: 1px solid#fff; border-radius: 30px;  transition: all .3s ease-out;
@@ -81,23 +81,41 @@ main{margin: 0 auto;
 
     #product{width: 100%; height: 1136px; border-radius: 50px 50px 0 0;
         background: #f6f6f6; z-index: 99; position: relative; margin-top: -50px;
-        h1{font-size: 50px; font-weight: bold; color: #ff8500; position: absolute;
+        h1{font-size: 50px; font-family: Pretendard-Bold; color: #ff8500; position: absolute;
         top: 215px; left: 278px;}
         .medi{ position: absolute; top: 355px; left: 280px;
-             li{display: inline-block; font-size: 20px; font-weight: bold; color: #DBDBDB;
-            border-bottom: 3px solid #DBDBDB; margin-right: 50px; padding-bottom: 11px; width: 117px; text-align: center;}
+             li{display: inline-block; font-size: 20px; font-family: Pretendard-Bold; color: #DBDBDB;
+            border-bottom: 3px solid #DBDBDB; margin-right: 23px; padding-bottom: 11px; width: 120px; text-align: center;}
             li:first-child{color: #ff8500; border-bottom: 3px solid #ff8500;}
             }
-        .medi_go{font-size: 20px; color: #ff8500; position: absolute; top: 349px; right: 428px;
+        .medi_go{font-size: 20px; font-family: Pretendard-Bold; color: #ff8500; position: absolute; top: 349px; right: 428px;
         li{display: inline-block; margin-right: 30px;}
             li:first-child::before{content: url("../images/shopping.png"); padding-right: 10px;}
             li:last-child::before{content: url("../images/medicine.png"); padding-right: 10px;}
             }//end medi_go
-    .more{ background-color: #fff; padding: 8px 20px 8px 20px; border-radius: 50px; position: absolute; top: 343px; right: 278px;
-        i{color: #fff; background: #ff8500; padding: 7px; border-radius: 50px; margin-left: 18px;}
+    .more{ background-color: #fff; width: 120px; height:40px; border-radius: 50px;
+         position: absolute; top: 353px; right: 278px;
+        a{font-size: 16px; font-family: Pretendard-Bold; color: #707070;
+            line-height:45px; margin-left:20px;}
+        i{color: #fff; background: #ff8500; padding: 6px; border-radius: 50px; margin-left: 17px; margin-top:7px;}
+        
         }//end more
     }//end product
+
     
+    #product_j{position: absolute; top: 490px; left:299px; 
+        width:calc(100% - 498px);
+        #p_j{width:100%;
+            .jp01{background: #fff; width:320px; height:444px; border-radius:51px;
+                img{margin-left:20px; margin-top: 36px;}
+                a{font-size: 23px; font-family: Pretendard-Bold; color:#000; text-align: center;}
+                p{font-size:15px; font-family: Pretendard-Medium; color:#a1a1a5; 
+                    margin-top: 10px; text-align: center;}
+                
+
+            }//end jp01
+        }//end #p_j
+    }//end product-j
     
     
     
