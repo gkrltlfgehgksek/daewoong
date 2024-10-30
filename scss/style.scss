@@ -73,7 +73,7 @@ main{margin: 0 auto;
     padding: 8px 17px; border: 1px solid#fff; border-radius: 30px;  transition: all .3s ease-out;
     a{text-decoration: none; color: #fff;}
     }
-    .more:hover{
+    .more:hover{ 
         background: #fff; 
         a{color:$main;}
     }
@@ -144,16 +144,64 @@ main{margin: 0 auto;
         }//.end best_inner
     }//end best
     #group{
-        .esg{width:100%; 
-            img{ margin-top:239px; margin-left: 140px; position: relative;}
-            .dt{
-                li{font-family: Pretendard-Bold; color:#ff8500;
-                    h3{color: #000; font-size: 50px;}
+        .esg{position: relative;
+            img{ margin-top:239px; margin-left: 140px;}
+            .dt{position: absolute; top: 329px; left:278px;
+                li{font-family: Pretendard-Bold; color:#ff8500; font-size:25px;
+                    h3{color: #000; font-size: 50px; margin-top: 14px;}
                     p{color: #000; font-size: 25px; font-family: Pretendard-Medium;
+                        margin-top: 40px;
                     strong{font-family: Pretendard-Bold;}}
                 }//end li
             }//end dt
         }//end esg
     }//end group
+
+    #vison{
+        .content{position: relative;
+            .sijang{
+                background:url("../images/VISION.png") no-repeat; height:370px; margin:24px 0 0 47px;
+                li{
+                    img{position: absolute; top:297px; left:278px;}
+                    h1{
+                        font-family: Pretendard-Bold; color:#ff8500; font-size:30px;
+                        position: absolute; top:495px; left: 713px;
+                    }
+                    p{
+                        font-size:24px; font-family: Pretendard-Medium; line-height: 35px;
+                        margin-top:40px; position: absolute; top: 570px; left:713px;
+                    }
+                }//end li
+            }//end sijang
+
+            .hwa{
+                li{
+                    img{position: absolute; top:820px; right:278px;}
+                    h1{
+                        position: absolute; top: 1025px; right:719px;
+                        font-family: Pretendard-Bold; color:#ff8500; font-size:30px;  
+                    }
+                    p{
+                        font-size:24px; font-family: Pretendard-Medium; line-height: 35px;
+                        margin-top:40px; text-align: right;  position: absolute; top:1100px; left:507px;
+                    }
+                }//end li
+            }//end hwa
+
+            .injea{ background:url("../images/GLOBAL.png") no-repeat; height:370px; margin:1450px 0 0 190px;
+                li{
+                    img{position: absolute; top:1358px; left:278px;}
+                    h1{
+                        position: absolute; top:1603px; left:737px;
+                        font-family: Pretendard-Bold; color:#ff8500; font-size:30px;  
+                    }
+                    p{
+                        font-size:24px; font-family: Pretendard-Medium; line-height: 35px;
+                        margin-top:40px;  position: absolute; top:1678px; left:737px;
+                    }
+                }//end li
+            }//end injea
+        }//end content
+    }//end vison
 }//end main
 

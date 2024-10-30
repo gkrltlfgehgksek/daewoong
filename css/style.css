@@ -357,26 +357,113 @@ main #best #best_inner .inner.show {
   opacity: 1;
 }
 main #group .esg {
-  width: 100%;
+  position: relative;
 }
 main #group .esg img {
   margin-top: 239px;
   margin-left: 140px;
-  position: relative;
+}
+main #group .esg .dt {
+  position: absolute;
+  top: 329px;
+  left: 278px;
 }
 main #group .esg .dt li {
   font-family: Pretendard-Bold;
   color: #ff8500;
+  font-size: 25px;
 }
 main #group .esg .dt li h3 {
   color: #000;
   font-size: 50px;
+  margin-top: 14px;
 }
 main #group .esg .dt li p {
   color: #000;
   font-size: 25px;
   font-family: Pretendard-Medium;
+  margin-top: 40px;
 }
 main #group .esg .dt li p strong {
   font-family: Pretendard-Bold;
+}
+main #vison .content {
+  position: relative;
+}
+main #vison .content .sijang {
+  background: url("../images/VISION.png") no-repeat;
+  height: 370px;
+  margin: 24px 0 0 47px;
+}
+main #vison .content .sijang li img {
+  position: absolute;
+  top: 297px;
+  left: 278px;
+}
+main #vison .content .sijang li h1 {
+  font-family: Pretendard-Bold;
+  color: #ff8500;
+  font-size: 30px;
+  position: absolute;
+  top: 495px;
+  left: 713px;
+}
+main #vison .content .sijang li p {
+  font-size: 24px;
+  font-family: Pretendard-Medium;
+  line-height: 35px;
+  margin-top: 40px;
+  position: absolute;
+  top: 570px;
+  left: 713px;
+}
+main #vison .content .hwa li img {
+  position: absolute;
+  top: 820px;
+  right: 278px;
+}
+main #vison .content .hwa li h1 {
+  position: absolute;
+  top: 1025px;
+  right: 719px;
+  font-family: Pretendard-Bold;
+  color: #ff8500;
+  font-size: 30px;
+}
+main #vison .content .hwa li p {
+  font-size: 24px;
+  font-family: Pretendard-Medium;
+  line-height: 35px;
+  margin-top: 40px;
+  text-align: right;
+  position: absolute;
+  top: 1100px;
+  left: 507px;
+}
+main #vison .content .injea {
+  background: url("../images/GLOBAL.png") no-repeat;
+  height: 370px;
+  margin: 1450px 0 0 190px;
+}
+main #vison .content .injea li img {
+  position: absolute;
+  top: 1358px;
+  left: 278px;
+}
+main #vison .content .injea li h1 {
+  position: absolute;
+  top: 1603px;
+  left: 737px;
+  font-family: Pretendard-Bold;
+  color: #ff8500;
+  font-size: 30px;
+}
+main #vison .content .injea li p {
+  font-size: 24px;
+  font-family: Pretendard-Medium;
+  line-height: 35px;
+  margin-top: 40px;
+  position: absolute;
+  top: 1678px;
+  left: 737px;
 }
