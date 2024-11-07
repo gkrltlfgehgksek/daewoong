@@ -36,7 +36,7 @@ html {
   display: inline-block;
   width: 184px;
   height: 37px;
-  background: url(/images/logo_02.png) no-repeat;
+  background: url(../images/logo_02.png) no-repeat;
   background-size: 100% auto;
   text-indent: -9999px;
   transition: all 0.2s ease-in-out;
@@ -466,4 +466,28 @@ main #vison .content .injea li p {
   position: absolute;
   top: 1678px;
   left: 737px;
+}
+main #rd_inner {
+  height: 1000px;
+}
+main #rd_inner #rd_back {
+  background: url(../images/rnd-bg.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+}
+main #rd_inner #rt01 h1 {
+  font-size: 95px;
+  font-family: Pretendard-Bold;
+  color: #fff;
+}
+main #rd_inner #rt01 h2 {
+  font-size: 36px;
+  font-family: Pretendard-Bold;
+  color: #fff;
+}
+main #rd_inner #rt01 p {
+  font-size: 20px;
+  font-family: Pretendard-Medium;
+  color: #fff;
 }

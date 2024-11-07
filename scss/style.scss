@@ -12,11 +12,14 @@ $main : #ff8500;
 .clear_fix::after{content: ''; display: block; clear:both}
 a{text-decoration: none; color:inherit; }
 html{height: 9376px; width:1920px;}
+
+
+
 #head_inner{ position:fixed; width:100%; height:80px; 
     padding: 0 50px;  z-index:300; 
     #logo{margin-top: 28px; margin-left:140px; float: left;}
     #logo a{display: inline-block;width: 184px; height:37px; 
-        background: url(/images/logo_02.png) no-repeat;
+        background: url(../images/logo_02.png) no-repeat;
         background-size: 100% auto; text-indent:-9999px;
         transition: all .2s ease-in-out;  }
     #logo a:hover{background-position:0 -37px !important;}
@@ -143,6 +146,7 @@ main{margin: 0 auto;
             .inner.show{transform:translateY(0); opacity:1;}
         }//.end best_inner
     }//end best
+
     #group{
         .esg{position: relative;
             img{ margin-top:239px; margin-left: 140px;}
@@ -188,7 +192,7 @@ main{margin: 0 auto;
                 }//end li
             }//end hwa
 
-            .injea{ background:url("../images/GLOBAL.png") no-repeat; height:370px; margin:1450px 0 0 190px;
+            .injea{ background:url("../images/GLOBAL.png") no-repeat ; height:370px; margin:1450px 0 0 190px;
                 li{
                     img{position: absolute; top:1358px; left:278px;}
                     h1{
@@ -203,5 +207,24 @@ main{margin: 0 auto;
             }//end injea
         }//end content
     }//end vison
+
+    #rd_inner{ height:1000px;
+
+        #rd_back{background:url(../images/rnd-bg.png) no-repeat; background-size: cover; 
+            position: absolute; right: 0;}
+
+        #rt01{
+            h1{font-size: 95px; font-family: Pretendard-Bold;
+            color:#fff;}
+            h2{font-size:36px; font-family: Pretendard-Bold;
+            color:#fff;}
+            p{font-size:20px; font-family: Pretendard-Medium;
+            color:#fff;}
+        }//end rt01
+
+    }//end rd_inner 
+
+
+
 }//end main
 
